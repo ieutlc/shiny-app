@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shiny-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: false
